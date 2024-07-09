@@ -1,8 +1,9 @@
 include ../config.mk
 
 TARGET 	= game_of_life
-OBJS 	= game_of_life.o 		\
-		  graphics/graphics.o 	\
+OBJS 	= game_of_life.o 			\
+		  graphics/graphics.o 		\
+		  game_rules/game_rules.o 	\
 
 DEPS 	= $(OBJS:.o=.d)
 
